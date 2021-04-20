@@ -1,0 +1,13 @@
+main: cf.kars.spigot.zombies.Main
+name: Zombies
+version: 0.1
+author: KarstonMC
+website: kars.cf
+api-version: 1.16
+load: POSTWORLD
+commands:
+    zombies:
+        description: Command for KarstonMC's zombie apocalypse server
+        aliases: [zombie, zom, z]
+        usage: /<command> [help|reload]
+        permission-message: You don't have <permission>

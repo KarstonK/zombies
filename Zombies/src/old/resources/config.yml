@@ -1,0 +1,6 @@
+zombies:
+    summoner:
+        attributes:
+            generic_movement_speed: 0.2
+        armor:
+            head: IRON_HELMET

@@ -1,0 +1,53 @@
+zombies:
+    spawnable:
+        Zombie
+    replace:
+        Zombie:
+            weight: 90
+        ZombieVillager:
+            weight: 5
+        Husk:
+            weight: 5
+    default:
+        weight: 1
+        replaceArmor: true
+        attributes:
+            GENERIC_MOVEMENT_SPEED: 0.25
+            ZOMBIE_SPAWN_REINFORCEMENTS: 0
+    summoner:
+        weight: 1
+        replaceArmor: true
+        attributes:
+            GENERIC_MOVEMENT_SPEED: 0.25
+            ZOMBIE_SPAWN_REINFORCEMENTS: 0.2
+        armor:
+            head: DIAMOND_HELMET
+    ninja:
+        weight: 1
+        replaceArmor: true
+        attributes:
+            GENERIC_MOVEMENT_SPEED: 0.5
+            GENERIC_ATTACK_DAMAGE: 6
+            GENERIC_MAX_HEALTH: 10
+            ZOMBIE_SPAWN_REINFORCEMENTS: 0
+        armor:
+            head: NETHERITE_HELMET
+    tank:
+        weight: 1
+        replaceArmor: true
+        attributes:
+            GENERIC_MOVEMENT_SPEED: 0.15
+            GENERIC_ATTACK_DAMAGE: 6
+            GENERIC_MAX_HEALTH: 40
+            ZOMBIE_SPAWN_REINFORCEMENTS: 0
+        armor:
+            head: IRON_HELMET
+    bomber:
+        weight: 1
+        replaceArmor: true
+        attributes:
+            GENERIC_MOVEMENT_SPEED: 0.35
+            GENERIC_MAX_HEALTH: 10
+            ZOMBIE_SPAWN_REINFORCEMENTS: 0
+        armor:
+            head: TNT

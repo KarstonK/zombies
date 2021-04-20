@@ -1,0 +1,11 @@
+main: cf.kars.spigot.zombies.Main
+name: Zombies
+version: 0.1
+author: KarstonMC
+website: kars.cf
+commands:
+    zombies:
+        description: Command for KarstonMC's zombie apocalypse server
+        usage: /<command> [player]
+        permission: zombies.reload
+        permission-message: You don't have <permission>
